@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Doctrine;
+namespace Mamizo\Bundle\GeneratorBundle\Doctrine;
 
 use Doctrine\Common\Persistence\ManagerRegistry as LegacyManagerRegistry;
-use Symfony\Bundle\MakerBundle\Generator;
-use Symfony\Bundle\MakerBundle\Str;
-use Symfony\Bundle\MakerBundle\Util\ClassNameDetails;
+use Mamizo\Bundle\GeneratorBundle\Generator;
+use Mamizo\Bundle\GeneratorBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassNameDetails;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;
 use Symfony\Component\Security\Core\User\UserInterface;
 

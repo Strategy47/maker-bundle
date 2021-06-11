@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Doctrine;
+namespace Mamizo\Bundle\GeneratorBundle\Doctrine;
 
 use Doctrine\Common\Persistence\ManagerRegistry as LegacyManagerRegistry;
 use Doctrine\Common\Persistence\Mapping\ClassMetadata as LegacyClassMetadata;
@@ -25,7 +25,7 @@ use Doctrine\Persistence\Mapping\ClassMetadata;
 use Doctrine\Persistence\Mapping\Driver\AnnotationDriver;
 use Doctrine\Persistence\Mapping\Driver\MappingDriverChain;
 use Doctrine\Persistence\Mapping\MappingException as PersistenceMappingException;
-use Symfony\Bundle\MakerBundle\Util\ClassNameDetails;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassNameDetails;
 
 /**
  * @author Fabien Potencier <fabien@symfony.com>

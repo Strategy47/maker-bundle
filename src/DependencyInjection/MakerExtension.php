@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\DependencyInjection;
+namespace Mamizo\Bundle\GeneratorBundle\DependencyInjection;
 
-use Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass\MakeCommandRegistrationPass;
-use Symfony\Bundle\MakerBundle\MakerInterface;
+use Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass\MakeCommandRegistrationPass;
+use Mamizo\Bundle\GeneratorBundle\MakerInterface;
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\DependencyInjection\Definition;

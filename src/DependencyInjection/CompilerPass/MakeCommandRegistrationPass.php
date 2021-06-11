@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass;
+namespace Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass;
 
-use Symfony\Bundle\MakerBundle\Command\MakerCommand;
-use Symfony\Bundle\MakerBundle\MakerInterface;
-use Symfony\Bundle\MakerBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\Command\MakerCommand;
+use Mamizo\Bundle\GeneratorBundle\MakerInterface;
+use Mamizo\Bundle\GeneratorBundle\Str;
 use Symfony\Component\Console\Command\LazyCommand;
 use Symfony\Component\DependencyInjection\ChildDefinition;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

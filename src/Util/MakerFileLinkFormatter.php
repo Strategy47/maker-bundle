@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Util;
+namespace Mamizo\Bundle\GeneratorBundle\Util;
 
 use Symfony\Component\Console\Formatter\OutputFormatterStyle;
 use Symfony\Component\HttpKernel\Debug\FileLinkFormatter;

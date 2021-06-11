@@ -9,16 +9,16 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Maker;
+namespace Mamizo\Bundle\GeneratorBundle\Maker;
 
-use Symfony\Bundle\MakerBundle\ConsoleStyle;
-use Symfony\Bundle\MakerBundle\DependencyBuilder;
-use Symfony\Bundle\MakerBundle\Docker\DockerDatabaseServices;
-use Symfony\Bundle\MakerBundle\FileManager;
-use Symfony\Bundle\MakerBundle\Generator;
-use Symfony\Bundle\MakerBundle\InputConfiguration;
-use Symfony\Bundle\MakerBundle\Util\ComposeFileManipulator;
-use Symfony\Bundle\MakerBundle\Validator;
+use Mamizo\Bundle\GeneratorBundle\ConsoleStyle;
+use Mamizo\Bundle\GeneratorBundle\DependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\Docker\DockerDatabaseServices;
+use Mamizo\Bundle\GeneratorBundle\FileManager;
+use Mamizo\Bundle\GeneratorBundle\Generator;
+use Mamizo\Bundle\GeneratorBundle\InputConfiguration;
+use Mamizo\Bundle\GeneratorBundle\Util\ComposeFileManipulator;
+use Mamizo\Bundle\GeneratorBundle\Validator;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Yaml\Yaml;

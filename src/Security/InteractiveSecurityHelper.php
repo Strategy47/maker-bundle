@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Security;
+namespace Mamizo\Bundle\GeneratorBundle\Security;
 
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
-use Symfony\Bundle\MakerBundle\Str;
-use Symfony\Bundle\MakerBundle\Validator;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\Validator;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Security\Core\User\UserInterface;
 

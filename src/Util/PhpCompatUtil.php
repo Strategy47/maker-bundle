@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Util;
+namespace Mamizo\Bundle\GeneratorBundle\Util;
 
-use Symfony\Bundle\MakerBundle\FileManager;
+use Mamizo\Bundle\GeneratorBundle\FileManager;
 use Symfony\Component\HttpKernel\Kernel;
 
 /**

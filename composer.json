@@ -32,7 +32,6 @@
         "friendsofphp/php-cs-fixer": "^3.0",
         "friendsoftwig/twigcs": "^4.1.0|^5.0.0",
         "symfony/http-client": "^4.3|^5.0",
-        "symfony/phpunit-bridge": "^4.3|^5.0",
         "symfony/process": "^4.0|^5.0",
         "symfony/security-core": "^4.0|^5.0",
         "symfony/yaml": "^4.0|^5.0"
@@ -42,10 +41,10 @@
         "sort-packages": true
     },
     "autoload": {
-        "psr-4": { "Symfony\\Bundle\\MakerBundle\\": "src/" }
+        "psr-4": { "Mamizo\\Bundle\\GeneratorBundle\\": "src/" }
     },
     "autoload-dev": {
-        "psr-4": { "Symfony\\Bundle\\MakerBundle\\Tests\\": "tests/" }
+        "psr-4": { "Mamizo\\Bundle\\GeneratorBundle\\Tests\\": "tests/" }
     },
     "extra": {
         "branch-alias": {

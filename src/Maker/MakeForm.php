@@ -9,18 +9,18 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Maker;
+namespace Mamizo\Bundle\GeneratorBundle\Maker;
 
 use Doctrine\Bundle\DoctrineBundle\DoctrineBundle;
-use Symfony\Bundle\MakerBundle\ConsoleStyle;
-use Symfony\Bundle\MakerBundle\DependencyBuilder;
-use Symfony\Bundle\MakerBundle\Doctrine\DoctrineHelper;
-use Symfony\Bundle\MakerBundle\Generator;
-use Symfony\Bundle\MakerBundle\InputConfiguration;
-use Symfony\Bundle\MakerBundle\Renderer\FormTypeRenderer;
-use Symfony\Bundle\MakerBundle\Str;
-use Symfony\Bundle\MakerBundle\Util\ClassDetails;
-use Symfony\Bundle\MakerBundle\Validator;
+use Mamizo\Bundle\GeneratorBundle\ConsoleStyle;
+use Mamizo\Bundle\GeneratorBundle\DependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\DoctrineHelper;
+use Mamizo\Bundle\GeneratorBundle\Generator;
+use Mamizo\Bundle\GeneratorBundle\InputConfiguration;
+use Mamizo\Bundle\GeneratorBundle\Renderer\FormTypeRenderer;
+use Mamizo\Bundle\GeneratorBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassDetails;
+use Mamizo\Bundle\GeneratorBundle\Validator;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

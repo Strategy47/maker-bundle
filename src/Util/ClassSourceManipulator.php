@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Util;
+namespace Mamizo\Bundle\GeneratorBundle\Util;
 
 use Doctrine\Common\Collections\ArrayCollection;
 use Doctrine\Common\Collections\Collection;
@@ -21,14 +21,14 @@ use PhpParser\Node;
 use PhpParser\NodeTraverser;
 use PhpParser\NodeVisitor;
 use PhpParser\Parser;
-use Symfony\Bundle\MakerBundle\ConsoleStyle;
-use Symfony\Bundle\MakerBundle\Doctrine\BaseCollectionRelation;
-use Symfony\Bundle\MakerBundle\Doctrine\BaseRelation;
-use Symfony\Bundle\MakerBundle\Doctrine\RelationManyToMany;
-use Symfony\Bundle\MakerBundle\Doctrine\RelationManyToOne;
-use Symfony\Bundle\MakerBundle\Doctrine\RelationOneToMany;
-use Symfony\Bundle\MakerBundle\Doctrine\RelationOneToOne;
-use Symfony\Bundle\MakerBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\ConsoleStyle;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\BaseCollectionRelation;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\BaseRelation;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\RelationManyToMany;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\RelationManyToOne;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\RelationOneToMany;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\RelationOneToOne;
+use Mamizo\Bundle\GeneratorBundle\Str;
 
 /**
  * @internal

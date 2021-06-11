@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Test;
+namespace Mamizo\Bundle\GeneratorBundle\Test;
 
-use Symfony\Bundle\MakerBundle\Util\YamlSourceManipulator;
+use Mamizo\Bundle\GeneratorBundle\Util\YamlSourceManipulator;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;
 use Symfony\Component\HttpClient\HttpClient;
@@ -347,7 +347,7 @@ final class MakerTestEnvironment
             [
                 'filename' => 'config/bundles.php',
                 'find' => "Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],",
-                'replace' => "Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],\n    Symfony\Bundle\MakerBundle\MakerBundle::class => ['dev' => true],",
+                'replace' => "Symfony\Bundle\FrameworkBundle\FrameworkBundle::class => ['all' => true],\n    Mamizo\Bundle\GeneratorBundle\MakerBundle::class => ['dev' => true],",
             ],
             [
                 // ugly way to autoload Maker & any other vendor libs needed in the command

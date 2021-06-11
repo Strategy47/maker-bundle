@@ -9,26 +9,26 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Maker;
+namespace Mamizo\Bundle\GeneratorBundle\Maker;
 
 use ApiPlatform\Core\Annotation\ApiResource;
 use Doctrine\DBAL\Types\Type;
-use Symfony\Bundle\MakerBundle\ConsoleStyle;
-use Symfony\Bundle\MakerBundle\DependencyBuilder;
-use Symfony\Bundle\MakerBundle\Doctrine\DoctrineHelper;
-use Symfony\Bundle\MakerBundle\Doctrine\EntityClassGenerator;
-use Symfony\Bundle\MakerBundle\Doctrine\EntityRegenerator;
-use Symfony\Bundle\MakerBundle\Doctrine\EntityRelation;
-use Symfony\Bundle\MakerBundle\Doctrine\ORMDependencyBuilder;
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
-use Symfony\Bundle\MakerBundle\FileManager;
-use Symfony\Bundle\MakerBundle\Generator;
-use Symfony\Bundle\MakerBundle\InputAwareMakerInterface;
-use Symfony\Bundle\MakerBundle\InputConfiguration;
-use Symfony\Bundle\MakerBundle\Str;
-use Symfony\Bundle\MakerBundle\Util\ClassDetails;
-use Symfony\Bundle\MakerBundle\Util\ClassSourceManipulator;
-use Symfony\Bundle\MakerBundle\Validator;
+use Mamizo\Bundle\GeneratorBundle\ConsoleStyle;
+use Mamizo\Bundle\GeneratorBundle\DependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\DoctrineHelper;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\EntityClassGenerator;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\EntityRegenerator;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\EntityRelation;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\ORMDependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\FileManager;
+use Mamizo\Bundle\GeneratorBundle\Generator;
+use Mamizo\Bundle\GeneratorBundle\InputAwareMakerInterface;
+use Mamizo\Bundle\GeneratorBundle\InputConfiguration;
+use Mamizo\Bundle\GeneratorBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassDetails;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassSourceManipulator;
+use Mamizo\Bundle\GeneratorBundle\Validator;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
 use Symfony\Component\Console\Input\InputInterface;

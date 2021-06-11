@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Util;
+namespace Mamizo\Bundle\GeneratorBundle\Util;
 
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
 use Symfony\Component\Yaml\Dumper;
 
 /**

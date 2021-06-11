@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle;
+namespace Mamizo\Bundle\GeneratorBundle;
 
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
-use Symfony\Bundle\MakerBundle\Util\ClassNameDetails;
-use Symfony\Bundle\MakerBundle\Util\PhpCompatUtil;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassNameDetails;
+use Mamizo\Bundle\GeneratorBundle\Util\PhpCompatUtil;
 
 /**
  * @author Javier Eguiluz <javier.eguiluz@gmail.com>

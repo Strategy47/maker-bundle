@@ -9,23 +9,23 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Maker;
+namespace Mamizo\Bundle\GeneratorBundle\Maker;
 
 use Doctrine\Bundle\DoctrineBundle\DoctrineBundle;
-use Symfony\Bundle\MakerBundle\ConsoleStyle;
-use Symfony\Bundle\MakerBundle\DependencyBuilder;
-use Symfony\Bundle\MakerBundle\Doctrine\EntityClassGenerator;
-use Symfony\Bundle\MakerBundle\Doctrine\ORMDependencyBuilder;
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
-use Symfony\Bundle\MakerBundle\FileManager;
-use Symfony\Bundle\MakerBundle\Generator;
-use Symfony\Bundle\MakerBundle\InputConfiguration;
-use Symfony\Bundle\MakerBundle\Security\SecurityConfigUpdater;
-use Symfony\Bundle\MakerBundle\Security\UserClassBuilder;
-use Symfony\Bundle\MakerBundle\Security\UserClassConfiguration;
-use Symfony\Bundle\MakerBundle\Util\ClassSourceManipulator;
-use Symfony\Bundle\MakerBundle\Util\YamlManipulationFailedException;
-use Symfony\Bundle\MakerBundle\Validator;
+use Mamizo\Bundle\GeneratorBundle\ConsoleStyle;
+use Mamizo\Bundle\GeneratorBundle\DependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\EntityClassGenerator;
+use Mamizo\Bundle\GeneratorBundle\Doctrine\ORMDependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\FileManager;
+use Mamizo\Bundle\GeneratorBundle\Generator;
+use Mamizo\Bundle\GeneratorBundle\InputConfiguration;
+use Mamizo\Bundle\GeneratorBundle\Security\SecurityConfigUpdater;
+use Mamizo\Bundle\GeneratorBundle\Security\UserClassBuilder;
+use Mamizo\Bundle\GeneratorBundle\Security\UserClassConfiguration;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassSourceManipulator;
+use Mamizo\Bundle\GeneratorBundle\Util\YamlManipulationFailedException;
+use Mamizo\Bundle\GeneratorBundle\Validator;
 use Symfony\Bundle\SecurityBundle\SecurityBundle;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;

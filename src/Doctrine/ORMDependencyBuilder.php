@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Doctrine;
+namespace Mamizo\Bundle\GeneratorBundle\Doctrine;
 
 use Doctrine\Bundle\DoctrineBundle\DoctrineBundle;
 use Doctrine\ORM\Mapping\Column;
-use Symfony\Bundle\MakerBundle\DependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\DependencyBuilder;
 
 /**
  * @internal

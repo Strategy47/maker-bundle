@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Doctrine;
+namespace Mamizo\Bundle\GeneratorBundle\Doctrine;
 
 /**
  * @internal

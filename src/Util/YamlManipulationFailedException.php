@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Util;
+namespace Mamizo\Bundle\GeneratorBundle\Util;
 
 /**
  * Thrown whenever YamlSourceManipulator cannot change contents successfully.

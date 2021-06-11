@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Security;
+namespace Mamizo\Bundle\GeneratorBundle\Security;
 
 /**
  * Configuration about the user's new User class.

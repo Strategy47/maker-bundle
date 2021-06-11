@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Security;
+namespace Mamizo\Bundle\GeneratorBundle\Security;
 
 use PhpParser\Node;
-use Symfony\Bundle\MakerBundle\Util\ClassSourceManipulator;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassSourceManipulator;
 use Symfony\Component\HttpKernel\Kernel;
 use Symfony\Component\Security\Core\User\InMemoryUser;
 use Symfony\Component\Security\Core\User\PasswordAuthenticatedUserInterface;

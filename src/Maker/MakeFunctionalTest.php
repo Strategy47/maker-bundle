@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Maker;
+namespace Mamizo\Bundle\GeneratorBundle\Maker;
 
 use Symfony\Bundle\FrameworkBundle\Test\WebTestAssertionsTrait;
-use Symfony\Bundle\MakerBundle\ConsoleStyle;
-use Symfony\Bundle\MakerBundle\DependencyBuilder;
-use Symfony\Bundle\MakerBundle\Generator;
-use Symfony\Bundle\MakerBundle\InputConfiguration;
+use Mamizo\Bundle\GeneratorBundle\ConsoleStyle;
+use Mamizo\Bundle\GeneratorBundle\DependencyBuilder;
+use Mamizo\Bundle\GeneratorBundle\Generator;
+use Mamizo\Bundle\GeneratorBundle\InputConfiguration;
 use Symfony\Component\BrowserKit\History;
 use Symfony\Component\Console\Command\Command;
 use Symfony\Component\Console\Input\InputArgument;
@@ -26,7 +26,7 @@ use Symfony\Component\Panther\PantherTestCaseTrait;
 trigger_deprecation('symfony/maker-bundle', '1.29', 'The "%s" class is deprecated, use "%s" instead.', MakeFunctionalTest::class, MakeTest::class);
 
 /**
- * @deprecated since MakerBundle 1.29, use Symfony\Bundle\MakerBundle\Maker\MakeTest instead.
+ * @deprecated since MakerBundle 1.29, use Mamizo\Bundle\GeneratorBundle\Maker\MakeTest instead.
  *
  * @author Javier Eguiluz <javier.eguiluz@gmail.com>
  * @author Ryan Weaver <weaverryan@gmail.com>

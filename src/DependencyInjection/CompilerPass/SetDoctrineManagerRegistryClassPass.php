@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass;
+namespace Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass;
 
 use Doctrine\Persistence\ManagerRegistry;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;

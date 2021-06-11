@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass;
+namespace Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass;
 
 use Doctrine\ORM\Mapping\Driver\AnnotationDriver;
 use Doctrine\Persistence\Mapping\Driver\AnnotationDriver as AbstractAnnotationDriver;

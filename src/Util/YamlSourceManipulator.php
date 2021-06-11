@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Util;
+namespace Mamizo\Bundle\GeneratorBundle\Util;
 
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Yaml\Exception\ParseException;

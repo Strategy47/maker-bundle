@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle;
+namespace Mamizo\Bundle\GeneratorBundle;
 
-use Symfony\Bundle\MakerBundle\Util\AutoloaderUtil;
-use Symfony\Bundle\MakerBundle\Util\MakerFileLinkFormatter;
+use Mamizo\Bundle\GeneratorBundle\Util\AutoloaderUtil;
+use Mamizo\Bundle\GeneratorBundle\Util\MakerFileLinkFormatter;
 use Symfony\Component\Console\Style\SymfonyStyle;
 use Symfony\Component\Filesystem\Filesystem;
 use Symfony\Component\Finder\Finder;

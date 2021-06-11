@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Doctrine;
+namespace Mamizo\Bundle\GeneratorBundle\Doctrine;
 
 use Doctrine\Common\Persistence\Mapping\ClassMetadata as LegacyClassMetadata;
 use Doctrine\Persistence\Mapping\ClassMetadata;

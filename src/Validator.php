@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle;
+namespace Mamizo\Bundle\GeneratorBundle;
 
 use Doctrine\Common\Persistence\ManagerRegistry as LegacyManagerRegistry;
 use Doctrine\Persistence\ManagerRegistry;
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
 use Symfony\Component\Security\Core\User\UserInterface;
 
 /**

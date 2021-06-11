@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Security;
+namespace Mamizo\Bundle\GeneratorBundle\Security;
 
-use Symfony\Bundle\MakerBundle\Util\YamlSourceManipulator;
+use Mamizo\Bundle\GeneratorBundle\Util\YamlSourceManipulator;
 use Symfony\Component\HttpKernel\Log\Logger;
 use Symfony\Component\Security\Core\Encoder\NativePasswordEncoder;
 

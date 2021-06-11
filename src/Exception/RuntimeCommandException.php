@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Exception;
+namespace Mamizo\Bundle\GeneratorBundle\Exception;
 
 use Symfony\Component\Console\Exception\ExceptionInterface;
 

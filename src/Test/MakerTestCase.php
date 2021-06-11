@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Test;
+namespace Mamizo\Bundle\GeneratorBundle\Test;
 
 use Composer\Semver\Semver;
 use PHPUnit\Framework\TestCase;
-use Symfony\Bundle\MakerBundle\MakerInterface;
-use Symfony\Bundle\MakerBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\MakerInterface;
+use Mamizo\Bundle\GeneratorBundle\Str;
 use Symfony\Component\HttpKernel\KernelInterface;
 use Symfony\Component\Process\Process;
 

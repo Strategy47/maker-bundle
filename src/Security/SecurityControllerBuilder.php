@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Security;
+namespace Mamizo\Bundle\GeneratorBundle\Security;
 
-use Symfony\Bundle\MakerBundle\Util\ClassSourceManipulator;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassSourceManipulator;
 use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 use Symfony\Component\Security\Http\Authentication\AuthenticationUtils;

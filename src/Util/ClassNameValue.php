@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Util;
+namespace Mamizo\Bundle\GeneratorBundle\Util;
 
-use Symfony\Bundle\MakerBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\Str;
 
 /**
  * @internal

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Docker;
+namespace Mamizo\Bundle\GeneratorBundle\Docker;
 
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
 
 /**
  * @author  Jesse Rushlow <jr@rushlow.dev>

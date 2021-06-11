@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle;
+namespace Mamizo\Bundle\GeneratorBundle;
 
 /**
  * @author Sadicov Vladimir <sadikoff@gmail.com>

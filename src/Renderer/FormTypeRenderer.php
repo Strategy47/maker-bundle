@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Renderer;
+namespace Mamizo\Bundle\GeneratorBundle\Renderer;
 
-use Symfony\Bundle\MakerBundle\Generator;
-use Symfony\Bundle\MakerBundle\Str;
-use Symfony\Bundle\MakerBundle\Util\ClassNameDetails;
+use Mamizo\Bundle\GeneratorBundle\Generator;
+use Mamizo\Bundle\GeneratorBundle\Str;
+use Mamizo\Bundle\GeneratorBundle\Util\ClassNameDetails;
 
 /**
  * @internal

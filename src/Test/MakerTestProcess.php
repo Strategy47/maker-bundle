@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Test;
+namespace Mamizo\Bundle\GeneratorBundle\Test;
 
 use Symfony\Component\Process\Process;
 

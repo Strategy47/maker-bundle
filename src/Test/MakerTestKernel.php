@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Test;
+namespace Mamizo\Bundle\GeneratorBundle\Test;
 
 use Symfony\Bundle\FrameworkBundle\FrameworkBundle;
 use Symfony\Bundle\FrameworkBundle\Kernel\MicroKernelTrait;
-use Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass\MakeCommandRegistrationPass;
-use Symfony\Bundle\MakerBundle\MakerBundle;
+use Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass\MakeCommandRegistrationPass;
+use Mamizo\Bundle\GeneratorBundle\MakerBundle;
 use Symfony\Component\Config\Loader\LoaderInterface;
 use Symfony\Component\DependencyInjection\Compiler\CompilerPassInterface;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle;
+namespace Mamizo\Bundle\GeneratorBundle;
 
-use Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass\MakeCommandRegistrationPass;
-use Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass\RemoveMissingParametersPass;
-use Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass\SetDoctrineAnnotatedPrefixesPass;
-use Symfony\Bundle\MakerBundle\DependencyInjection\CompilerPass\SetDoctrineManagerRegistryClassPass;
+use Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass\MakeCommandRegistrationPass;
+use Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass\RemoveMissingParametersPass;
+use Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass\SetDoctrineAnnotatedPrefixesPass;
+use Mamizo\Bundle\GeneratorBundle\DependencyInjection\CompilerPass\SetDoctrineManagerRegistryClassPass;
 use Symfony\Component\DependencyInjection\Compiler\PassConfig;
 use Symfony\Component\DependencyInjection\ContainerBuilder;
 use Symfony\Component\HttpKernel\Bundle\Bundle;

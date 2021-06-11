@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace Symfony\Bundle\MakerBundle\Event;
+namespace Mamizo\Bundle\GeneratorBundle\Event;
 
-use Symfony\Bundle\MakerBundle\Exception\RuntimeCommandException;
+use Mamizo\Bundle\GeneratorBundle\Exception\RuntimeCommandException;
 use Symfony\Component\Console\ConsoleEvents;
 use Symfony\Component\Console\Event\ConsoleErrorEvent;
 use Symfony\Component\Console\Event\ConsoleTerminateEvent;
