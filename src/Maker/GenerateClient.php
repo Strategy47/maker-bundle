@@ -36,7 +36,7 @@ use Symfony\Component\Validator\Validation;
 /**
  * @author Sadicov Vladimir <sadikoff@gmail.com>
  */
-final class MakeCrud extends AbstractMaker
+final class GenerateClient extends AbstractMaker
 {
     private $doctrineHelper;
 

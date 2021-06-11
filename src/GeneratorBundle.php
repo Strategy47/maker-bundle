@@ -23,7 +23,7 @@ use Symfony\Component\HttpKernel\Bundle\Bundle;
  * @author Javier Eguiluz <javier.eguiluz@gmail.com>
  * @author Ryan Weaver <weaverryan@gmail.com>
  */
-class MakerBundle extends Bundle
+class GeneratorBundle extends Bundle
 {
     public function build(ContainerBuilder $container)
     {
